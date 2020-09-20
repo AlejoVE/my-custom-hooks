@@ -10,8 +10,3 @@ Located in `useForm.js`, it's a basic form that receives an argument for an init
 
 - **reset**: reset the form to its original state.
 
-
-## useFetch
-
-Located in `useFetch.js`, receive a url as an argument. The initial state is an object with the following properties: `{data: null, loading: true, error: null}`. Returns a object with the new data or with an error if there was a problem.
-
