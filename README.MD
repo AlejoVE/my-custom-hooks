@@ -10,15 +10,6 @@ Located in `useForm.js`, it's a basic form that receives an argument for an init
 
 - **reset**: reset the form to its original state.
 
-## Counter
-
-Located in `useCounter.js`, receives an argument as initial state, if it does not receive arguments the initial state will be 1. Returns an object with the  counter, and three methods: increment, decrement and reset.
-
-- **increment**: call the setCounter to change the state and  increment the counter + 1.
-
-- **decrement**: call the setCounter to change the state and  decrement the counter - 1.
-
-- **reset**: reset the counter to its original state.
 
 ## useFetch
 
