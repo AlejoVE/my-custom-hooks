@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from "react";
 
 export const useFetch =  (url) => {
     
-    //se utiliza como referencia para comprobar que el component está montado
     const isMounted = useRef(true);
     const [state, setState] = useState({data: null, loading: true, error: null});
 
@@ -31,7 +30,7 @@ export const useFetch =  (url) => {
              setState({
                  data: null,
                  loading: false,
-                 error: 'No se pudo cargar la info'
+                 error: 'The info could not be loaded'
              })
         })
     }, [url])
