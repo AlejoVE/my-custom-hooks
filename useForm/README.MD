@@ -8,7 +8,7 @@ const initialForm = {
     email: ''
 };
 
-const [ formValues, handleInputChanges, reset ] = useForm( intialForm );
+const [ formValues, handleInputChanges, reset ] = useForm( initialForm );
 ```
 It's a basic form that receives an argument for an initial state, if it does not receive arguments, the initial state will be an empty object. Returns an array with values, and two functions: `handleInputChange` and `reset.`
 
